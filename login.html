@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+button {
+  height: 50px;
+  margin: 5px;
+  width: 500px;
+  background: #333;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Consolas, Courier New, monospace;
+  border: solid #404c5d 1px;
+  font-size: 16px;
+  color: black;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #7414e9, #ffffff);
+}
+
+button:hover {
+  box-shadow: 1px 1px 13px #8c56de, -1px -1px 13px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+</style>
+<body>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+<div class="container">
+    <div class="d-flex justify-content-center">
+        <h3>Welcome To The World Of Books...</h3>
+    </div>
+    <div class="d-flex justify-content-center pt-5 mt-5 pb-5 border rounded"
+    style="background: linear-gradient(48deg, #47249c, skyblue);">
+        <form>
+            <h5><label for="email">Email Address:</label></h5>
+            <input class="form-control" placeholder="example@email.com"><br>
+            <h5><label for="pwd">Password</label></h5>
+            <input class="form-control" placeholder="Shhh!!"> <br>
+            <button type="button" class="justify-content-center">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
